@@ -1,0 +1,41 @@
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    scroll-snap-align: center;
+}
+
+.slider-container2 {
+    display: flex;
+    width: 20%;
+    height: 50vh;
+    overflow-x: scroll;
+
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container2 img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    scroll-snap-align: center;
+}
+
+/*
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+

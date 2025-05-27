@@ -1,0 +1,16 @@
+/* By default is set box-sizing: content-box // add more space outside the area we define to the div. */
+
+html {
+    box-sizing: border-box;
+}
+/* for the elements inherit the box-sizing */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* This has to do with how an element will take up space on the page. */
+
